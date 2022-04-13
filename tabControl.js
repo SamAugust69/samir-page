@@ -36,5 +36,6 @@ function enableDropdown(dropDownNumber, maxHeight) {
         dropdownButtons[dropDownNumber].style.backgroundColor = "green";
     }
 
-}enableDropdown(0, '26px')
-indow.scrollTo(".projectHolder");
+}
+
+enableDropdown(0, '26px')
