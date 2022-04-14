@@ -1,15 +1,5 @@
 /* ELEMENT STYLING */
 
-/* p {
-    font-family: 'Roboto', sans-serif;
-    font-size: medium;
-    padding-top: 30px;
-    margin: 0;
-    position:absolute;
-    vertical-align: center;
-    text-align: center;
-    width: clamp(400px, 80%, 1200px);
-} */
 html {
     scroll-behavior: smooth;
 }
@@ -35,6 +25,24 @@ body {
 
 .dropdown p {
     margin: 0;
+}
+
+
+.spotify {
+    background-color: #C62368;
+    width: 100%;
+    padding: 0 0 25px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #C597BA;
+}
+
+.spotify a:active,
+.spotify a:hover, 
+.spotify a:visited, 
+.spotify a:link {
+    color: #C597BA;
+    font-size: small;
+    text-align: left;
 }
 
 /* END */
@@ -232,22 +240,6 @@ body {
     opacity: 1;
 }
 
-.spotify {
-    background-color: #C62368;
-    width: 100%;
-    padding: 0 0 25px 0;
-    font-family: 'Roboto', sans-serif;
-    color: #C597BA;
-}
-
-.spotify a:active,
-.spotify a:hover, 
-.spotify a:visited, 
-.spotify a:link {
-    color: #C597BA;
-    font-size: small;
-    text-align: left;
-}
 /* END */
 
 
