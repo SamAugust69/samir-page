@@ -32,7 +32,7 @@
                     <h2>HTML, PHP, CSS, JS, PY, ETC</h2>
                 </div>
                 <div class="spacer wave1"></div>
-                <div class="spotify"><a target="_blank"  href="https://open.spotify.com/user/smonsonis1?si=6f7ec11772e24efc&nd=1" >FOLLOW MY SPOTIFY</a></div>
+                <div class="spotifya"><a target="_blank"  href="https://open.spotify.com/user/smonsonis1?si=6f7ec11772e24efc&nd=1" >FOLLOW MY SPOTIFY</a></div>
                 
                 <div class="spacer wave2"></div>
                 <div class="pageOneProjects">

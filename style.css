@@ -28,7 +28,7 @@ body {
 }
 
 
-.spotify {
+.spotifya {
     background-color: #C62368;
     width: 100%;
     padding: 0 0 25px 0;
@@ -36,10 +36,10 @@ body {
     color: #C597BA;
 }
 
-.spotify a:active,
-.spotify a:hover, 
-.spotify a:visited, 
-.spotify a:link {
+.spotifya a:active,
+.spotifya a:hover, 
+.spotifya a:visited, 
+.spotifya a:link {
     color: #C597BA;
     font-size: small;
     text-align: left;
