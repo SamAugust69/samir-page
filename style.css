@@ -312,11 +312,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .serverTable {
     font-family: 'Roboto', sans-serif;
     border-collapse: collapse;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
     font-size:  0.9em;
     width: clamp(400px, 100%, 1100px);
     border-radius: 3px 3px 3px 3px;
@@ -355,5 +356,11 @@ body {
 .serverTable tbody tr.active {
     font-weight: bold;
     color: #008777;
+}
+
+.serverTableContainer a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #C597BA;
 }
 /* END */

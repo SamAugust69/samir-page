@@ -71,12 +71,11 @@
                 };
 
                 $servers = array(
-                    array("73.4.188.149", "25566"),
-                    array("mc.hypixel.net", "25565"),
-                    array("73.4.188.149", "25565")
+                    array("Create Above and Beyond", "73.4.188.149", "25566"),
+                    array("Hypixel", "mc.hypixel.net", "25565"),
+                    array("test", "73.4.188.149", "25565")
                 );
                 error_reporting(0);
-
             ?>
             <div class="pageContainer">
                 <div class="serverTableContainer">
@@ -88,29 +87,22 @@
                                 <th>Port</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="serverTableTBody">
                         <?php
                         foreach($servers as $server){
-                            $online = serverPing($server[0], $server[1]);
-                        }
+                            $online = serverPing($server[1], $server[2]);
                         ?>
-                        <script>
-                            
-                        </script>
-                            <tr>
-                                <td>Create Above and Beyond</td>
-                                <td>73.4.188.149</td>
-                                <td>25566</td>
-                                <td><?php echo ($online);?></td>
-                            </tr>
-                            <tr>
-                                <td>test</td>
-                                <td>73.4.188.149</td>
-                                <td>25565</td>
-                                <td><?php echo ($online);?></td>
-                            </tr>
+                        <tr class="<?php if ($online == 1) { echo "active"; } ?>">
+                            <td><?php echo $server[0] ?></td>
+                            <td><?php echo $server[1] ?></td>
+                            <td><?php echo $server[2] ?></td>
+                        </tr>
+                        <?php
+                        };
+                        ?>
                         </tbody>
                     </table>
+                    <div><a>all modded servers(ex. create above and beyond) should be downloaded at curseforge unless directed otherwise</a></div>
                 </div>
             </div>
             <div class="closer">
