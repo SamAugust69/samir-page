@@ -9,7 +9,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Samir's Home" />
+    <meta property="og:title" content="Samir's Sandbox" />
     <meta property="og:description" content="Lil project I'm working on.  Contains info on minecraft servers I'm running" />
     <meta property="og:url" content="https://samiweb.herokuapp.com/" />
 </head>
