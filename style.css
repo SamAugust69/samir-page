@@ -305,3 +305,55 @@ body {
     letter-spacing: .5px;
 }
 /* END */
+
+/* MINECRAFT PAGE */
+
+.serverTableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serverTable {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    margin: 20px;
+    font-size:  0.9em;
+    width: clamp(400px, 100%, 1100px);
+    border-radius: 3px 3px 3px 3px;
+    overflow: hidden;
+    background-color: #333134;
+    font-size: medium;
+    
+}
+
+.serverTable thead tr {
+    background-color: #C597BA;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.serverTable th,
+.serverTable td {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.serverTable tbody tr {
+    border-bottom: 2px solid #2C292D;
+    color: #D46A6A;
+}
+
+.serverTable tbody tr:nth-of-type(even) {
+    background-color: #3E3B40;
+}
+
+.serverTable tbody tr:last-of-type {
+    border-bottom: 1px solid #C597BA;
+}
+
+.serverTable tbody tr.active {
+    font-weight: bold;
+    color: #008777;
+}
+/* END */

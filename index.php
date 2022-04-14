@@ -59,7 +59,29 @@
                 </div>
             </div>
             <div class="pageContainer">
-                not tryna style shit, modpack is <a href="https://www.curseforge.com/minecraft/modpacks/create-above-and-beyond">Create Above and Beyond. </a> Servers open at 73.4.188.149:25566
+                <div class="serverTableContainer">
+                    <table class="serverTable">
+                        <thead>
+                            <tr>
+                                <th>Server</th>
+                                <th>Address</th>
+                                <th>Port</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="">
+                                <td>Create Above and Beyond</td>
+                                <td>73.4.188.149</td>
+                                <td>25566</td>
+                            </tr>
+                            <tr>
+                                <td>test</td>
+                                <td>73.4.188.149</td>
+                                <td>25565</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="closer">
                 Made Well-Enough by Samir
