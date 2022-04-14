@@ -37,6 +37,7 @@ body {
 .spacer {
     aspect-ratio: 900/300;
     width: clamp(400px, 100%, 1200px);
+    background: wheat;
     background-repeat: no-repeat;
     background: center;
     background-size: cover;
@@ -47,6 +48,7 @@ body {
     background-image: url("./svg/waves1.svg");
     padding-top: 60px;
     height: 200px;
+    z-index: 2;
 
 }
 
