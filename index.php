@@ -8,6 +8,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Samir's Home" />
+    <meta property="og:description" content="Lil project I'm working on.  Contains info on minecraft servers I'm running" />
+    <meta property="og:url" content="https://samiweb.herokuapp.com/" />
 </head>
 
 <body class="body">
@@ -58,6 +62,22 @@
                     </div>
                 </div>
             </div>
+            <?php
+                function serverPing($server, $port){
+                    //        |ip      |port|err code|err msg|cooldown|
+                    fsockopen($server, $port, $errno, $errstr, 0.1);
+
+                    return ($errno === 0);
+                };
+
+                $servers = array(
+                    array("73.4.188.149", "25566"),
+                    array("mc.hypixel.net", "25565"),
+                    array("73.4.188.149", "25565")
+                );
+                error_reporting(0);
+
+            ?>
             <div class="pageContainer">
                 <div class="serverTableContainer">
                     <table class="serverTable">
@@ -69,15 +89,25 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="">
+                        <?php
+                        foreach($servers as $server){
+                            $online = serverPing($server[0], $server[1]);
+                        }
+                        ?>
+                        <script>
+                            
+                        </script>
+                            <tr>
                                 <td>Create Above and Beyond</td>
                                 <td>73.4.188.149</td>
                                 <td>25566</td>
+                                <td><?php echo ($online);?></td>
                             </tr>
                             <tr>
                                 <td>test</td>
                                 <td>73.4.188.149</td>
                                 <td>25565</td>
+                                <td><?php echo ($online);?></td>
                             </tr>
                         </tbody>
                     </table>
