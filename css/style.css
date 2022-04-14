@@ -28,23 +28,6 @@ body {
 }
 
 
-.spotifya {
-    background-color: #C62368;
-    width: 100%;
-    padding: 0 0 25px 0;
-    font-family: 'Roboto', sans-serif;
-    color: #C597BA;
-}
-
-.spotifya a:active,
-.spotifya a:hover, 
-.spotifya a:visited, 
-.spotifya a:link {
-    color: #C597BA;
-    font-size: small;
-    text-align: left;
-}
-
 /* END */
 
 
