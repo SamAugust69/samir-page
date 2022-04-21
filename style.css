@@ -265,11 +265,11 @@ body {
 .project {
     width: clamp(250px, 100%, 250px);
     height: 350px;
-    background-color: #242227;
+    background-color: #DA3F67;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
+    /* border: 2px solid #F36567; */
     margin: 0 auto;
-    
 }
 
 .project h1 {
