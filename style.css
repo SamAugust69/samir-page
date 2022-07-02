@@ -348,9 +348,109 @@ body {
     color: #008777;
 }
 
-.serverTableContainer a {
+.serverTableContainer div a {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #C597BA;
+}
+
+/* .installationSteps h1 {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 10px 0 0 0;
+}
+
+.createCustomInstall ul {
+    margin: 14px 0 0 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: ;
+}
+
+.createCustomInstall li {
+    list-style-type: none; 
+} */
+
+
+.instContainer {
+    font-family: 'Roboto', sans-serif;
+    font-size:  0.9em;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instHeader {
+    font-size: medium;
+    text-indent: 10px;
+    width: clamp(400px, 100%, 1100px);
+    max-height: 43px;
+    background-color: #C597BA;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #2C292D;
+    border-radius: 3px 3px 0 0;
+    display: flex;
+}
+
+.instHeader .block {
+    background-color: #A68CB3;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    border-radius: 3px 0 0 0;
+    width: 38px;
+    border-right: 2px solid #BDABC7;
+}
+
+.instHeader .block span {
+    height: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: small;
+    display: inline-block;
+    text-align: center;
+    text-indent: -11px;
+    letter-spacing: .5px;
+}
+
+.instBody {
+    width: clamp(400px, 100%, 1100px);
+    background-color: #333134;
+    margin: 0 20px 0 20px;
+    border-bottom: 1px solid #C597BA;
+    max-width: clamp(400px, 100%, 1100px);
+}
+
+.instBody iframe {
+    margin: 0;
+}
+
+.size {
+    resize: both;
+    overflow: hidden;
+}
+
+.instContainer h2 {
+    font-size: medium;
+    color: #C4C4C4;
+    padding: 0 10px 0 10px;
+    border-bottom: 2px solid #C4C4C4;
+    display: inline-block;
+    text-align: center;
+}
+
+.instContainer h3 {
+    font-size: medium;
+    line-height: 41px;
+    margin: 0;
+}
+
+.dynmap {
+    height: 100%;
+    width: clamp(350px, 100%, 1100px);
 }
 /* END */
